@@ -105,6 +105,7 @@ ggplot(data = df, aes(x = x, y = y)) +
 ### Time-series chart
 
 This visualisation counts the *time periods* in which data were collected; this figure permits us to determine the exact time period of data collection, and the count made each year, as well as which year got the highest or the lowest data collection.
+project/project/unicef_files/figure-html/unnamed-chunk-1-1.png
 
 ```{r error=FALSE, warning=FALSE, message=FALSE}
 
