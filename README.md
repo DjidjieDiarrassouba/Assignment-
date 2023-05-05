@@ -25,7 +25,7 @@ For more visualitations on the UNICEF Indicador on the **percentage of Children 
 ### World Map
 
 This visualisation is a world map, allowing us to **observe what are the countries affected by the indicator**. In addition, this visualisation adds interactivity, as it allows users to explore the data and discover insights on their own.
-
+�PNG
 ```{r error=FALSE, warning=FALSE, message=FALSE}
 install.packages("ggplot2")
 library(ggplot2)
