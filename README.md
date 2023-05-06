@@ -174,20 +174,18 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <h3 class="anchored" data-anchor-id="bar-chart">Bar Chart</h3>
 <p>This is the first visualisation figure counting the number of sexes affected by the indicator using the observation Value. The data shows that <strong>148 women and 74 men</strong> were affected</p>
 <div class="cell">
-library(ggplot2)
-# Sample data
-gender <- c("Male", "Female")
-count <- c(100, 222)
-df <- data.frame(gender, count)
-# Sample data
-gender <- c("Male", "Female", "Male", "Male", "Female", "Female", "Female")
-df <- data.frame(gender)
-# Load ggplot2 library
-library(ggplot2)
-# Create bar chart
-ggplot(df, aes(x=gender)) + 
-  geom_bar(fill="steelblue") +
-  labs(title="Male and Female Counts", x="Gender", y="Count")
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Sample data</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>gender &lt;- c("Male", "Female")</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>count &lt;- c(100, 222)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>df &lt;- data.frame(gender, count)</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Sample data</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>gender &lt;- c("Male", "Female", "Male", "Male", "Female", "Female", "Female")</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>df &lt;- data.frame(gender)</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(df, <span class="fu">aes</span>(x=gender)) + </span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_bar</span>(fill="steelblue") +</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(title="Male and Female Counts", x="Gender", y="Count")</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <p><img src="project/project/unicef_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid" width="672"></p>
 </div>
