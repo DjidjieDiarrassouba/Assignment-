@@ -167,6 +167,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_map</span>(<span class="at">data =</span> world.cities, <span class="at">map =</span> <span class="fu">map_data</span>(<span class="st">"world"</span>), </span>
 <span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>           <span class="fu">aes</span>(long, lat, <span class="at">map_id =</span> country.etc), <span class="at">color =</span> <span class="st">"pink"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
+project/project/unicef_files/figure-html/unnamed-chunk-1-1.png
 <p><img src="unicef_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
