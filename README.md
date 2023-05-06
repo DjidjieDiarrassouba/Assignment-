@@ -384,7 +384,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 git add .
 git commit -m "Initial commit"
 git push origin main
-project/project/unicef_files/figure-html/unnamed-chunk-4-1.png
-project/project/unicef_files/figure-html/unnamed-chunk-3-1.png
-project/project/unicef_files/figure-html/unnamed-chunk-2-1.png
-project/project/unicef_files/figure-html/unnamed-chunk-1-1.png
+"C:\Users\Djidj\Downloads\unnamed-chunk-1-1.png"
